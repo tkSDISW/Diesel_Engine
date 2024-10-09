@@ -208,6 +208,56 @@
             name="Logical System" abstractType="#b93150c6-a6be-4ccc-9752-ef59dd415da8"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="b93150c6-a6be-4ccc-9752-ef59dd415da8" name="Logical System">
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="96a6e10b-87c2-453c-b07b-18b346bf00ac" name="Engine Block" description="Foundation of the engine, housing cylinders for combustion"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="68fdeaa4-1ce9-4edf-98f0-6851571b7630" name="Cylinders" description="Chambers where air is compressed and diesel fuel is injected"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="94c08138-ebd6-4f24-b637-0166c97ef043" name="Pistons" description="Convert energy from combustion into mechanical energy"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="f668eb3b-8f6e-4a75-8b2f-4e5844e2a07d" name="Crankshaft" description="Converts linear motion of pistons into rotational motion"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="75c17118-3eff-4fc4-9221-be1ea3206277" name="Connecting Rods" description="Connect pistons to crankshaft, transmitting motion"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="691bdb31-e444-4971-ab36-e4afc5a3eaee" name="Cylinder Head" description="Seals the top of the engine block, forming combustion chamber"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="3a724d74-eb21-4d16-aeb1-ee1978d045af" name="Valves" description="Regulate the flow of air into cylinders and exhaust gases out"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="2cc7d9a5-801e-4f8c-929b-ec91779886ff" name="Camshaft" description="Controls the opening and closing of intake and exhaust valves"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="28970b3d-faf6-49a3-902d-1bab58cbf7eb" name="Timing Chain/Belt" description="Synchronizes the rotation of crankshaft and camshaft"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9e9843bd-2815-4d49-aed9-6f301cdffa09" name="Fuel Injectors" description="Delivers diesel fuel into the combustion chamber"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="99b57703-5636-4a51-9235-ade2a0800098" name="Turbocharger" description="Increases air entering the engine, improving power and efficiency"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="cd37139d-1328-439a-8ec5-79b55bd97b5d" name="Intercooler" description="Cools compressed air from turbocharger before entering engine"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="dc31b7b2-8784-4139-b287-2a3d8649a1be" name="Glow Plugs" description="Preheats combustion chamber to assist in cold starting"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="c09daabb-0d7e-40d7-9bd8-74017d11a12b" name="Fuel Pump" description="Pumps diesel fuel from tank to injectors at high pressure"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="eb69efc3-5e09-482f-960f-7dba3281d7e4" name="Exhaust Manifold" description="Collects exhaust gases and directs them to the exhaust system"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="553ccf90-4b8e-4c03-86cd-e9fde3cb1cde" name="Intake Manifold" description="Distributes air to the engine&amp;#x27;s cylinders"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="e2a9ed05-1d0c-4dad-ad11-ab9dcf106b4b" name="Oil Pump" description="Circulates oil throughout the engine for lubrication"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="e8d0a17e-6785-483a-b09c-3f403ac1be62" name="Water Pump" description="Circulates coolant to regulate engine temperature"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="5e0fb3f5-a126-4e43-ac64-4b673415d347" name="Radiator" description="Cools the engine by dissipating heat from the coolant"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="2a0b9ed8-09ca-4a46-963c-742f223d90ef" name="Flywheel" description="Stores rotational energy and smooths power pulses"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="08592946-caae-4817-826b-0f91698c8931" name="Air Filter" description="Filters air before it enters the engine"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="d8c4120d-7864-4240-a5b4-05fa4524c6dc" name="Engine Control Unit"
+              description="Controls fuel injection timing, air intake, and turbocharging"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="4a4686c1-7a04-4ce2-98bc-5a97a39394cb" name="EGR System" description="Reduces emissions by recirculating exhaust gases"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="8112e53e-57fd-46d9-b919-1d8a39bd237f" name="Particulate Filter"
+              description="Captures soot and particulate matter from exhaust gases"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="85aaee6e-0fc8-4aea-807e-b867988ff630" targetElement="#d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e"
               sourceElement="#b93150c6-a6be-4ccc-9752-ef59dd415da8"/>

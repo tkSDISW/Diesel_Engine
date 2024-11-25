@@ -407,9 +407,9 @@
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="2bf8bd00-d0d4-40bd-af22-365b0278d2cb" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="28290647-658d-4f4d-995e-f7320cdaad48"
-            name="System" abstractType="#d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e"/>
+            name="Diesel Engine" abstractType="#d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3342eea0-11d4-4306-99ee-e66a45f0e4e5"
-            name="Opearator" abstractType="#25017eb6-d2d9-4bf0-9232-c4e22001b084"/>
+            name="Operator" abstractType="#25017eb6-d2d9-4bf0-9232-c4e22001b084"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2b31ff87-aed9-45ca-842d-aadccbd53cd6"
             name="Maintanance" abstractType="#a65de728-19fd-4f40-acdf-eae76f4b563d"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="51f1e35f-8c39-4170-83cd-45af54be0c74"
@@ -419,7 +419,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="cc18de0e-7fb1-4c22-b5ca-21dd2b3b31e8"
             name="Load" abstractType="#78ce18e0-e2a6-478c-8ead-7ac2a34eda31"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e" name="System">
+            id="d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e" name="Diesel Engine">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c29da3b0-0b81-44a8-890e-9c3219a89a6d" targetElement="#f2f00033-0e67-4f55-8ca5-fa10c93910a8"
               sourceElement="#d5b3cb19-4353-4bc6-a2f6-9f080cb20d9e"/>
@@ -433,7 +433,7 @@
           </ownedStateMachines>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="25017eb6-d2d9-4bf0-9232-c4e22001b084" name="Opearator" actor="true"
+            id="25017eb6-d2d9-4bf0-9232-c4e22001b084" name="Operator" actor="true"
             human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c3c08257-a5fb-4a20-b3a7-6c40731500f6" targetElement="#b613c151-b8fa-473e-8ee1-9f6e5f42eab6"
